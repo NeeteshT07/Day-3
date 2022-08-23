@@ -1,0 +1,24 @@
+// for of loop
+
+var person = {fname: "John" , lname = "Doe" , age : 25};
+var text = "";
+var x;
+for (x in person){
+    text+=person[x];
+}
+
+// for each loop
+
+var results = [ {"id1": "10" , "class" : "child 0f 9" } , {"id2" : "11" , "class" : "child of 10"} ]
+results.forEach(function(item){
+  console.log(item);
+});
+
+// for in loop
+
+var person = {fname: "John" , lname = "Doe" , age : 25};
+var text = "";
+var x;
+for (x in person){
+    text+=person[x];
+}
